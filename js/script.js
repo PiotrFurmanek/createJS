@@ -3,6 +3,8 @@
 // EaselJS
 function init() {
 
+	window.onload = function() { setInterval(fn,15000)};
+
 	// Define variables
 	var queue,
 		stage,
@@ -20,7 +22,7 @@ function init() {
 		cta,
 		sheen;
 	
-	stage = new createjs.Stage("demoCanvas");
+	stage = new createjs.Stage("bannerCanvas");
 
 	// PreloadJS - loadManifest for multiple files loading
 	queue = new createjs.LoadQueue(true);
@@ -220,7 +222,5 @@ function init() {
 
 	createjs.Ticker.setFPS(15);
 	createjs.Ticker.addEventListener("tick", stage);
-
-	window.onload = function() { setInterval(fn,15000)};
 
 }

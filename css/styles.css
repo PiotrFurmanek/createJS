@@ -15,7 +15,7 @@ charset "UTF-8";
     src: url('../fonts/SkyTextMedium-Regular.ttf') format('truetype');
 }
 
-#demoCanvas {
+#bannerCanvas {
     position: relative;
     display: block;
     overflow: hidden;

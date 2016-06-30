@@ -26,7 +26,6 @@ function init() {
 	queue = new createjs.LoadQueue(true);
 	queue.addEventListener("fileload", handleFileComplete);
  	queue.loadManifest([{id:"sky-logo", src:"images/sky-logo.png"}, {id:"bg", src:"images/bg.jpg"}, {id:"broadband", src:"images/broadband-frame2.png"}, {id:"cta", src:"images/CTA-frame3.png"}, {id:"sheen", src:"images/CTA-extra.png"}, {id:"headerOne", src:"images/header-frame1.png"}, {id:"headerTwo", src:"images/header-frame2.png"}, {id:"headerThree", src:"images/header-frame3.png"}, {id:"headerFour", src:"images/limited-offer.png"}, {id:"m-and-s", src:"images/m-and-s.png"}, {id:"samsung", src:"images/samsung.png"},]);
- 	//queue.load();
 
 	function handleFileComplete(event) {
 		document.body.appendChild(event.result);
@@ -221,5 +220,7 @@ function init() {
 
 	createjs.Ticker.setFPS(15);
 	createjs.Ticker.addEventListener("tick", stage);
+
+	window.onload = function() { setInterval(fn,15000)};
 
 }

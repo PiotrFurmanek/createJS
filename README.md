@@ -1,6 +1,6 @@
-# createJS banner
+# createJS Banner
 
-createJS banner is a MPU banner (300x250) built with the use of createJS library.
+createJS Banner is a MPU banner (300x250) built with the use of createJS library.
 
 ## Version
 
@@ -8,7 +8,14 @@ createJS banner is a MPU banner (300x250) built with the use of createJS library
 
 ## Tech
 
-[createJS] (http://createjs.com/)
+* [EaselJS] (http://createjs.com/easeljs)
+* [TweenJS] (http://createjs.com/tweenjs)
+* [PreloadJS] (http://createjs.com/preloadjs)
 
-## Development
+## Tasks
 
+createJS Banner uses PreloadJS to load all assets on the 'init' function
+
+## Licence
+
+MIT

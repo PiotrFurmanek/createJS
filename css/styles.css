@@ -1,0 +1,28 @@
+charset "UTF-8";
+
+@font-face {
+    font-family: 'sky-bold';
+    src: url('../fonts/SkyText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sky-regular';
+    src: url('../fonts/SkyText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sky-medium';
+    src: url('../fonts/SkyTextMedium-Regular.ttf') format('truetype');
+}
+
+#demoCanvas {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: url('../images/bg.jpg');
+    background-size: contain;
+}
+
+body {
+    font-family: "sky-regular", Helvetica, Times, serif;
+}

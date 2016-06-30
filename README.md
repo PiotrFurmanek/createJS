@@ -8,7 +8,7 @@ createJS banner is a MPU banner (300x250) built with the use of createJS library
 
 ## Tech
 
-* [createJS] (http://createjs.com/)
+[createJS] (http://createjs.com/)
 
 ## Development
 
